@@ -1,4 +1,5 @@
-numpy
+zenml
+tensorflow
+numpy==1.21
 pandas
 scikit-learn
-zenml

@@ -8,7 +8,7 @@ echo "-----------------"
 
 :: Step 1: Run training and testing pipelines in iterations
 echo %DATE% %TIME% - Running training and testing pipelines...
-start cmd /k "zenml clean -y && cd %project_path% && conda activate %env_path% && python first_pipeline.py"
+start cmd /k "zenml clean -y && cd %project_path% && conda activate %env_path% && python build_pipeline.py"
 timeout /t 30 /nobreak
 
 :: Step 2: Run zenml server
