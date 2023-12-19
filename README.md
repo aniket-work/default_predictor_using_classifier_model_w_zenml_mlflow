@@ -4,6 +4,12 @@
 ![Image Alt Text](test_design.png)
 
 
+## Run can be found in zemml as below
+
+## Experiment  can be found in mlflow as below
+
+
+
 ## One time setup (go to project root dir b4 running below)
 ---
 ```bash
